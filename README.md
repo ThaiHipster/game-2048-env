@@ -31,7 +31,7 @@ The agent controls a 4x4 grid where tiles slide and merge. Equal-valued tiles me
 ### Install
 
 ```bash
-pip install git+https://huggingface.co/spaces/openenv/game-2048-env
+pip install git+https://huggingface.co/spaces/thaihipster/game-2048-env
 ```
 
 ### Use
@@ -39,7 +39,7 @@ pip install git+https://huggingface.co/spaces/openenv/game-2048-env
 ```python
 from game_2048_env import Game2048Env, Game2048Action
 
-env = Game2048Env(base_url="https://openenv-game-2048-env.hf.space")
+env = Game2048Env(base_url="https://thaihipster-game-2048-env.hf.space")
 env.connect()
 
 result = env.reset()
